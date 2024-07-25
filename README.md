@@ -130,9 +130,9 @@ def find_fake_bar(self):
     result_message = self.select_fake_bar(fake_bar)
     weighings = self.driver.find_elements(By.CSS_SELECTOR, 'div.game-info ol li')
     print(f"Fake Bar Number: {fake_bar}")
-    print(f"Result: {result_message}")
+    print(f"Alert message: {result_message}")
     print(f"Number of weighing: {len(weighings)}")
-    print(f"List of weighing:")
+    print(f"List of weighing made:")
     for i, item in enumerate(weighings):
         print(f'{i+1}. {item.text}')
 
