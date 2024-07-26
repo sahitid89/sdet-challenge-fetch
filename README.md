@@ -152,11 +152,9 @@ def close(self):
 + Closes the browser and ends the Selenium session.
 
 ### Execution
-To run the script, save it to a file named fake_gold_bar_finder.py. Convert it into an executable file and run using python3
+To run the script, save it to a file named fake_gold_bar_finder.py and run using python3
 ```
-chmod +x fake_gold_bar_finder.py
 python3 fake_gold_bar_finder.py
-
 ```
 
 
